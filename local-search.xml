@@ -11,6 +11,14 @@
     <content type="html"><![CDATA[<h1 id="2023-4-25蚂蚁集团研发工程师Java实习一面"><a href="#2023-4-25蚂蚁集团研发工程师Java实习一面" class="headerlink" title="2023-4-25蚂蚁集团研发工程师Java实习一面"></a>2023-4-25蚂蚁集团研发工程师Java实习一面</h1><ol><li>自我介绍</li><li>redis实现购物车 什么什么缓存</li><li>mysql 索引解决什么问题？B+树了解吗？</li><li>前端会什么？</li><li>深入的项目？操作系统mit6.081   难点：内核态用户态切换。 进程调度的算法有哪些？原理？优先级调度为什么选择？优缺点？</li><li>堆怎么实现维护？怎么处理堆维护有序性：把顶上的节点去掉后怎么样？</li><li>java框架：spring<br>bean延迟加载<br>创建线程的方法有哪些<br>怎么管理线程？<br>线程池有什么用？做什么？为什么可以提高效率？线程池怎么创建？需要哪些参数并解释。<br>熟悉的java框架有哪些？调优接触过吗？<br>8.日常怎么学习技术？通过哪些东西？<br>9.如何了解java并发框架了解、学习？</li></ol>]]></content>
     
     
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
     
     <tags>
       
