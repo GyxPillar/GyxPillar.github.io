@@ -4,6 +4,39 @@
   
   
   <entry>
+    <title>2023.6.29华为公共开发部一面</title>
+    <link href="/2023/07/06/2023-6-29%E5%8D%8E%E4%B8%BA%E5%85%AC%E5%85%B1%E5%BC%80%E5%8F%91%E9%83%A8%E4%B8%80%E9%9D%A2/"/>
+    <url>/2023/07/06/2023-6-29%E5%8D%8E%E4%B8%BA%E5%85%AC%E5%85%B1%E5%BC%80%E5%8F%91%E9%83%A8%E4%B8%80%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-6-29华为公共开发部一面（已通过）"><a href="#2023-6-29华为公共开发部一面（已通过）" class="headerlink" title="2023.6.29华为公共开发部一面（已通过）"></a>2023.6.29华为公共开发部一面（已通过）</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>自我介绍技术栈与项目</li><li>非关系型数据库适用于哪些场景？</li><li><code>Mybatis</code>如何防止SQL注入？（安全性校验怎么实现）</li><li><code>Mybatis</code>使用时候XML文件中$和#的区别？</li><li><code>C++</code>的整型数据如何防止数据溢出？（加减乘除）</li><li><code>Java</code>常用的<code>IO流</code>相关API有哪些（字节流、字符流的对比）？</li><li><code>Hashmap</code>和<code>Hashtable</code>的区别？</li><li><code>Java</code>的<code>Collection</code>了解和分类情况？</li><li>数据库事务的四大特性？</li><li>对<code>MVC</code>结构的认识？</li><li>http请求里<code>get</code>和<code>post</code>的区别？</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>C++</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023-5-11快手Java实习面试</title>
     <link href="/2023/05/11/2023-5-11%E5%BF%AB%E6%89%8BJava%E5%AE%9E%E4%B9%A0%E9%9D%A2%E8%AF%95/"/>
     <url>/2023/05/11/2023-5-11%E5%BF%AB%E6%89%8BJava%E5%AE%9E%E4%B9%A0%E9%9D%A2%E8%AF%95/</url>
