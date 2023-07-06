@@ -8,7 +8,7 @@
     <link href="/2023/07/05/2023-7-6%E5%8D%8E%E4%B8%BA%E5%85%AC%E5%85%B1%E5%BC%80%E5%8F%91%E9%83%A8%E4%BA%8C%E9%9D%A2%EF%BC%88%E4%B8%BB%E7%AE%A1%E9%9D%A2%EF%BC%89/"/>
     <url>/2023/07/05/2023-7-6%E5%8D%8E%E4%B8%BA%E5%85%AC%E5%85%B1%E5%BC%80%E5%8F%91%E9%83%A8%E4%BA%8C%E9%9D%A2%EF%BC%88%E4%B8%BB%E7%AE%A1%E9%9D%A2%EF%BC%89/</url>
     
-    <content type="html"><![CDATA[<h1 id="2023-7-5华为公共开发部二面（主管面）（已通过）"><a href="#2023-7-5华为公共开发部二面（主管面）（已通过）" class="headerlink" title="2023-7-5华为公共开发部二面（主管面）（已通过）"></a>2023-7-5华为公共开发部二面（主管面）（已通过）</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>Spring你认为你理解比较好的知识点？（回答了IoC）</li><li>DBLP查询的项目有没有做<code>分页</code>和<code>过滤</code>？</li><li>一排一座的部署是部署到不同的逻辑上吗？</li><li>一排一座为什么使用MongoDB？</li><li>CravingStudy涉及到哪些其他业务？（和微信相关的部分）</li><li>C++的内存泄露是什么？如何避免？</li></ol><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ol><li>对加班看法？</li><li>未来职业方向规划？</li><li>其他领域的（如金融等）知识怎么学习？</li><li>平常那到一个项目，如何学习并实现？</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="2023-7-5华为公共开发部二面（主管面）（已通过）"><a href="#2023-7-5华为公共开发部二面（主管面）（已通过）" class="headerlink" title="2023-7-5华为公共开发部二面（主管面）（已通过）"></a>2023-7-5华为公共开发部二面（主管面）（已通过）</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>Spring你认为你理解比较好的知识点？（回答了IoC）</li><li>DBLP查询的项目有没有做<code>分页</code>和<code>过滤</code>？</li><li>一排一座的部署是部署到不同的逻辑上吗？</li><li>一排一座为什么使用MongoDB？</li><li>CravingStudy涉及到哪些其他业务？（和微信相关的部分）</li><li>C++的内存泄露是什么？如何避免？</li></ol><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ol><li>对加班看法？</li><li>未来职业方向规划？</li><li>其他领域的（如金融等）知识怎么学习？</li><li>平常拿到一个项目，如何学习并实现？</li><li>有没有组队工作经验？在组队工作中有没有和其他队员互相争论，最后说服对方的情况出现？</li></ol>]]></content>
     
     
     <categories>
@@ -54,7 +54,7 @@
       
       <category>Java面经</category>
       
-      <category>C++面经</category>
+      <category>面经</category>
       
     </categories>
     
