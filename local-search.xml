@@ -4,6 +4,41 @@
   
   
   <entry>
+    <title>TP-LINK普联&amp;联洲提前批面经汇总</title>
+    <link href="/2023/07/13/TP-LINK%E6%99%AE%E8%81%94-%E8%81%94%E6%B4%B2%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB/"/>
+    <url>/2023/07/13/TP-LINK%E6%99%AE%E8%81%94-%E8%81%94%E6%B4%B2%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB/</url>
+    
+    <content type="html"><![CDATA[<h1 id="TP-LINK普联-amp-联洲提前批面经汇总"><a href="#TP-LINK普联-amp-联洲提前批面经汇总" class="headerlink" title="TP-LINK普联&amp;联洲提前批面经汇总"></a>TP-LINK普联&amp;联洲提前批面经汇总</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><h3 id="Java基础"><a href="#Java基础" class="headerlink" title="Java基础"></a>Java基础</h3><ol><li><code>Hashtable</code>和<code>HashMap</code>的区别</li><li>常用的<code>文件IO API</code>（字节流、字符流区别）</li><li>讲讲<code>Java</code>的<code>Collection</code></li><li><code>StringBuilder</code>和<code>StringBuffer</code>的区别</li></ol><h3 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h3><ol><li>谈谈对Spring IOC的理解</li><li>Spring下实现一个接口的步骤（domain层、dao层、service&amp;impl层、controller层）</li><li>Spring Cloud实现微服务对吗？</li></ol><h3 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h3><ol><li>关系型数据库和非关系型数据库区别？</li><li>为什么一排一座使用MongoDB？</li><li>DBLP的数据库查询有什么优化空间？（分页、过滤怎么实现）</li><li>B+树和B树的区别</li></ol><h3 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h3><ol><li>谈谈对RESTful的理解</li><li>get和post的区别</li><li>为什么post比get慢一些？</li><li>get的URL有长度限制，怎么实现的？是什么限制了其长度？</li></ol><h3 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h3><ol><li>什么是线程安全？</li><li>Java有哪些实现线程安全的方法，有什么区别？</li></ol><h3 id="智力题"><a href="#智力题" class="headerlink" title="智力题"></a>智力题</h3><ol><li>1-100盏灯，开始全关。1号进来按下所有为1倍数的灯，2号进来按下所有为2倍数的灯，最后哪些灯亮着？</li></ol><h3 id="手撕"><a href="#手撕" class="headerlink" title="手撕"></a>手撕</h3><ol><li>01背包状态设计</li><li>滑动窗口（Leetcode-1004）</li></ol><h3 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h3><ol><li>什么是C++的虚函数？</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+      <category>C++面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>C++</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023-7-13格力电器一面</title>
     <link href="/2023/07/13/2023-7-13%E6%A0%BC%E5%8A%9B%E7%94%B5%E5%99%A8%E4%B8%80%E9%9D%A2/"/>
     <url>/2023/07/13/2023-7-13%E6%A0%BC%E5%8A%9B%E7%94%B5%E5%99%A8%E4%B8%80%E9%9D%A2/</url>
@@ -226,19 +261,6 @@
     <url>/2023/04/03/2023-3-30%E9%98%BF%E9%87%8C%E5%AE%9E%E4%B9%A0%E4%B8%80%E9%9D%A2/</url>
     
     <content type="html"><![CDATA[]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>test</title>
-    <link href="/2023/04/02/test/"/>
-    <url>/2023/04/02/test/</url>
-    
-    <content type="html"><![CDATA[<p><img src="/2023/04/02/test/2023-04-26-00-39-48.png"></p>]]></content>
     
     
     
