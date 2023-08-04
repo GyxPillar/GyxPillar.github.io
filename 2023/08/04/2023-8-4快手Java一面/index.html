@@ -16,32 +16,35 @@
   <meta name="author" content="Pillar Gao">
   <meta name="keywords" content="恋爱,同济大学,软件工程,计算机,学习,笔试,面试">
   
-    <meta name="description" content="本网站为同济大学2020级软件工程本科生高逸轩的个人博客，记录个人计算机知识学习、求职面试笔试经验等。另记录和女朋友的恋爱时刻。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="归档">
-<meta property="og:url" content="https://example.com/archives/2023/07/index.html">
+    <meta name="description" content="相关内容：ThreadLocal、线程池、B+树和联合索引">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2023-8-4快手Java一面">
+<meta property="og:url" content="https://example.com/2023/08/04/2023-8-4%E5%BF%AB%E6%89%8BJava%E4%B8%80%E9%9D%A2/index.html">
 <meta property="og:site_name" content="Pillar&#39;s Blog ♥ zhy">
-<meta property="og:description" content="本网站为同济大学2020级软件工程本科生高逸轩的个人博客，记录个人计算机知识学习、求职面试笔试经验等。另记录和女朋友的恋爱时刻。">
+<meta property="og:description" content="相关内容：ThreadLocal、线程池、B+树和联合索引">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-08-04T12:06:40.000Z">
+<meta property="article:modified_time" content="2023-08-04T08:47:40.911Z">
 <meta property="article:author" content="Pillar Gao">
-<meta property="article:tag" content="恋爱">
-<meta property="article:tag" content="同济大学">
-<meta property="article:tag" content="软件工程">
-<meta property="article:tag" content="计算机">
-<meta property="article:tag" content="学习">
-<meta property="article:tag" content="笔试">
-<meta property="article:tag" content="面试">
+<meta property="article:tag" content="面经">
+<meta property="article:tag" content="Java">
 <meta name="twitter:card" content="summary_large_image">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>归档 - Pillar&#39;s Blog ♥ zhy</title>
+  <title>2023-8-4快手Java一面 - Pillar&#39;s Blog ♥ zhy</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
 
 
 
@@ -106,7 +109,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 60vh;">
+<div class="header-inner" style="height: 70vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -212,9 +215,49 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="归档"></span>
+            <span id="subtitle" data-typed-text="2023-8-4快手Java一面"></span>
           
         </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-08-04 20:06" pubdate>
+          2023年8月4日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          290 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          3 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
 
         
       </div>
@@ -230,52 +273,215 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-  <p class="h4">共计 12 篇文章</p>
-  <hr>
-  
-  
-    
       
-      <p class="h5">2023</p>
-    
-    <a href="/2023/07/13/TP-LINK%E6%99%AE%E8%81%94-%E8%81%94%E6%B4%B2%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB/" class="list-group-item list-group-item-action">
-      <time>07-13</time>
-      <div class="list-group-item-title">TP-LINK普联&amp;联洲提前批面经汇总</div>
-    </a>
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">2023-8-4快手Java一面</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h1 id="2023-8-4快手Java一面"><a href="#2023-8-4快手Java一面" class="headerlink" title="2023-8-4快手Java一面"></a>2023-8-4快手Java一面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol>
+<li>自我介绍，自己找一个自己认为不错的领域询问</li>
+<li>ThreadLocal了解吗？作用是什么？</li>
+<li>线程池有哪些种？用过哪些种创建方式？一个app很多个http请求发来，应该用哪种合适？</li>
+<li>ThreadPoolExecutor()中的参数分别都有什么？任务队列用过哪些类型？ArrayBlockingQueue是无限还是有限的？</li>
+<li>在一个app的后端接受很多http请求的场景下，应该怎么设置核心线程数、线程池大小、任务队列类型、拒绝策略？</li>
+<li>Mysql的索引？建联合索引的时候，B+树上是怎么存储和查找的？</li>
+</ol>
+<h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><ol>
+<li>最大连续子数组之和</li>
+<li>最长递增子序列</li>
+</ol>
+<h2 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h2><ol>
+<li>简历修改，突出技术栈</li>
+</ol>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
   
     
-    <a href="/2023/07/13/2023-7-13%E6%A0%BC%E5%8A%9B%E7%94%B5%E5%99%A8%E4%B8%80%E9%9D%A2/" class="list-group-item list-group-item-action">
-      <time>07-13</time>
-      <div class="list-group-item-title">2023-7-13格力电器一面</div>
-    </a>
+      <span class="category-chain">
+        
+  <a href="/categories/%E9%9D%A2%E7%BB%8F/" class="category-chain-item">面经</a>
   
+  
+    <span>></span>
     
-    <a href="/2023/07/05/2023-7-6%E5%8D%8E%E4%B8%BA%E5%85%AC%E5%85%B1%E5%BC%80%E5%8F%91%E9%83%A8%E4%BA%8C%E9%9D%A2%EF%BC%88%E4%B8%BB%E7%AE%A1%E9%9D%A2%EF%BC%89/" class="list-group-item list-group-item-action">
-      <time>07-05</time>
-      <div class="list-group-item-title">2023-7-5华为公共开发部二面（主管面）（已通过）</div>
-    </a>
+  <a href="/categories/%E9%9D%A2%E7%BB%8F/%E5%90%8E%E7%AB%AF%E9%9D%A2%E7%BB%8F/" class="category-chain-item">后端面经</a>
   
+  
+    <span>></span>
+    
+  <a href="/categories/%E9%9D%A2%E7%BB%8F/%E5%90%8E%E7%AB%AF%E9%9D%A2%E7%BB%8F/Java%E9%9D%A2%E7%BB%8F/" class="category-chain-item">Java面经</a>
+  
+  
+
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E9%9D%A2%E7%BB%8F/">#面经</a>
+      
+        <a href="/tags/Java/">#Java</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>2023-8-4快手Java一面</div>
+      <div>https://example.com/2023/08/04/2023-8-4快手Java一面/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Pillar Gao</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2023年8月4日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2023/07/13/TP-LINK%E6%99%AE%E8%81%94-%E8%81%94%E6%B4%B2%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB/" title="TP-LINK普联&amp;联洲提前批面经汇总">
+                        <span class="hidden-mobile">TP-LINK普联&amp;联洲提前批面经汇总</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
 </div>
 
 
 
 
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
     
 
     
@@ -393,6 +599,99 @@
 
 
 
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
 

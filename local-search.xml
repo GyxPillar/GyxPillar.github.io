@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>2023-8-4快手Java一面</title>
+    <link href="/2023/08/04/2023-8-4%E5%BF%AB%E6%89%8BJava%E4%B8%80%E9%9D%A2/"/>
+    <url>/2023/08/04/2023-8-4%E5%BF%AB%E6%89%8BJava%E4%B8%80%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-8-4快手Java一面"><a href="#2023-8-4快手Java一面" class="headerlink" title="2023-8-4快手Java一面"></a>2023-8-4快手Java一面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>自我介绍，自己找一个自己认为不错的领域询问</li><li>ThreadLocal了解吗？作用是什么？</li><li>线程池有哪些种？用过哪些种创建方式？一个app很多个http请求发来，应该用哪种合适？</li><li>ThreadPoolExecutor()中的参数分别都有什么？任务队列用过哪些类型？ArrayBlockingQueue是无限还是有限的？</li><li>在一个app的后端接受很多http请求的场景下，应该怎么设置核心线程数、线程池大小、任务队列类型、拒绝策略？</li><li>Mysql的索引？建联合索引的时候，B+树上是怎么存储和查找的？</li></ol><h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><ol><li>最大连续子数组之和</li><li>最长递增子序列</li></ol><h2 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h2><ol><li>简历修改，突出技术栈</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>TP-LINK普联&amp;联洲提前批面经汇总</title>
     <link href="/2023/07/13/TP-LINK%E6%99%AE%E8%81%94-%E8%81%94%E6%B4%B2%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB/"/>
     <url>/2023/07/13/TP-LINK%E6%99%AE%E8%81%94-%E8%81%94%E6%B4%B2%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB/</url>
