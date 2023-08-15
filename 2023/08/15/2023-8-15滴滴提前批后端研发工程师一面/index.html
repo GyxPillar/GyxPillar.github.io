@@ -16,15 +16,15 @@
   <meta name="author" content="Pillar Gao">
   <meta name="keywords" content="恋爱,同济大学,软件工程,计算机,学习,笔试,面试">
   
-    <meta name="description" content="相关内容：ThreadLocal、线程池、B+树和联合索引">
+    <meta name="description" content="相关内容：隔离级别、B+树详解、TCP三次握手、滑动窗口、进程调度、SpringBoot循环依赖">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2023-8-4快手Java一面">
-<meta property="og:url" content="https://example.com/2023/08/04/2023-8-4%E5%BF%AB%E6%89%8BJava%E4%B8%80%E9%9D%A2/index.html">
+<meta property="og:title" content="2023-8-15滴滴提前批后端研发工程师一面">
+<meta property="og:url" content="https://example.com/2023/08/15/2023-8-15%E6%BB%B4%E6%BB%B4%E6%8F%90%E5%89%8D%E6%89%B9%E5%90%8E%E7%AB%AF%E7%A0%94%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E4%B8%80%E9%9D%A2/index.html">
 <meta property="og:site_name" content="Pillar&#39;s Blog ♥ zhy">
-<meta property="og:description" content="相关内容：ThreadLocal、线程池、B+树和联合索引">
+<meta property="og:description" content="相关内容：隔离级别、B+树详解、TCP三次握手、滑动窗口、进程调度、SpringBoot循环依赖">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-08-04T12:06:40.000Z">
-<meta property="article:modified_time" content="2023-08-04T08:47:40.911Z">
+<meta property="article:published_time" content="2023-08-15T14:48:42.000Z">
+<meta property="article:modified_time" content="2023-08-15T14:56:08.188Z">
 <meta property="article:author" content="Pillar Gao">
 <meta property="article:tag" content="面经">
 <meta property="article:tag" content="Java">
@@ -34,7 +34,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>2023-8-4快手Java一面 - Pillar&#39;s Blog ♥ zhy</title>
+  <title>2023-8-15滴滴提前批后端研发工程师一面 - Pillar&#39;s Blog ♥ zhy</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -215,7 +215,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="2023-8-4快手Java一面"></span>
+            <span id="subtitle" data-typed-text="2023-8-15滴滴提前批后端研发工程师一面"></span>
           
         </div>
 
@@ -226,8 +226,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-08-04 20:06" pubdate>
-          2023年8月4日 晚上
+        <time datetime="2023-08-15 22:48" pubdate>
+          2023年8月15日 晚上
         </time>
       </span>
     
@@ -238,7 +238,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          290 字
+          273 字
         
       </span>
     
@@ -287,25 +287,27 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">2023-8-4快手Java一面</h1>
+            <h1 style="display: none">2023-8-15滴滴提前批后端研发工程师一面</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="2023-8-4快手Java一面"><a href="#2023-8-4快手Java一面" class="headerlink" title="2023-8-4快手Java一面"></a>2023-8-4快手Java一面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol>
-<li>自我介绍，自己找一个自己认为不错的领域询问</li>
-<li>ThreadLocal了解吗？作用是什么？</li>
-<li>线程池有哪些种？用过哪些种创建方式？一个app很多个http请求发来，应该用哪种合适？</li>
-<li>ThreadPoolExecutor()中的参数分别都有什么？任务队列用过哪些类型？ArrayBlockingQueue是无限还是有限的？</li>
-<li>在一个app的后端接受很多http请求的场景下，应该怎么设置核心线程数、线程池大小、任务队列类型、拒绝策略？</li>
-<li>Mysql的索引？建联合索引的时候，B+树上是怎么存储和查找的？</li>
+                <h1 id="2023-8-15滴滴提前批后端研发工程师一面"><a href="#2023-8-15滴滴提前批后端研发工程师一面" class="headerlink" title="2023-8-15滴滴提前批后端研发工程师一面"></a>2023-8-15滴滴提前批后端研发工程师一面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol>
+<li>实习相关 问ClamAV与病毒库</li>
+<li>SpringCloud如何划分微服务？</li>
+<li>各个服务之间用了哪种通信方式？</li>
+<li>Mysql底层索引？B+树和B树区别？B+树的非叶子结点存储什么？</li>
+<li>B+树的建立和查询时候的具体过程</li>
+<li>购买支付怎么实现的？事务的实现原理？</li>
+<li>数据库隔离级别？RR实现原理？读已提交是针对事务已提交吗？</li>
+<li>TCP三次握手过程</li>
+<li>TCP流量控制 拥塞控制 滑动窗口详解</li>
+<li>进程调度算法有哪些？时间片算法详解？有啥不足？</li>
+<li>Springboot如何解决循环依赖？</li>
 </ol>
 <h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><ol>
-<li>最大连续子数组之和</li>
-<li>最长递增子序列</li>
-</ol>
-<h2 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h2><ol>
-<li>简历修改，突出技术栈</li>
+<li>按照前序遍历顺序，将二叉树转为链表</li>
+<li>LC430 扁平化多级双向链表</li>
 </ol>
 
                 
@@ -368,8 +370,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>2023-8-4快手Java一面</div>
-      <div>https://example.com/2023/08/04/2023-8-4快手Java一面/</div>
+      <div>2023-8-15滴滴提前批后端研发工程师一面</div>
+      <div>https://example.com/2023/08/15/2023-8-15滴滴提前批后端研发工程师一面/</div>
     </div>
     <div class="license-meta">
       
@@ -381,7 +383,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年8月4日</div>
+          <div>2023年8月15日</div>
         </div>
       
       
@@ -413,9 +415,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/08/15/2023-8-15%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%B8%80%E9%9D%A2/" title="2023-8-15长鑫存储软件开发一面">
+                      <a href="/2023/08/15/2023-8-15%E7%99%BE%E5%BA%A6%E6%8F%90%E5%89%8D%E6%89%B9%E7%BD%91%E7%9B%98%E7%A0%94%E5%8F%91%E9%83%A8Golang%E4%B8%80%E9%9D%A2/" title="2023-8-15百度提前批网盘研发部Golang一面">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">2023-8-15长鑫存储软件开发一面</span>
+                        <span class="hidden-mobile">2023-8-15百度提前批网盘研发部Golang一面</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -423,8 +425,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/07/13/TP-LINK%E6%99%AE%E8%81%94-%E8%81%94%E6%B4%B2%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB/" title="TP-LINK普联&amp;联洲提前批面经汇总">
-                        <span class="hidden-mobile">TP-LINK普联&amp;联洲提前批面经汇总</span>
+                      <a href="/2023/08/15/2023-8-15%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E4%B8%80%E9%9D%A2/" title="2023-8-15长鑫存储软件开发一面">
+                        <span class="hidden-mobile">2023-8-15长鑫存储软件开发一面</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
