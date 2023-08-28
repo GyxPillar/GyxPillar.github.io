@@ -4,11 +4,77 @@
   
   
   <entry>
+    <title>2023-8-28饿了么Java一面</title>
+    <link href="/2023/08/28/2023-8-28%E9%A5%BF%E4%BA%86%E4%B9%88Java%E4%B8%80%E9%9D%A2/"/>
+    <url>/2023/08/28/2023-8-28%E9%A5%BF%E4%BA%86%E4%B9%88Java%E4%B8%80%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-8-28饿了么Java一面"><a href="#2023-8-28饿了么Java一面" class="headerlink" title="2023-8-28饿了么Java一面"></a>2023-8-28饿了么Java一面</h1><h2 id="聊天"><a href="#聊天" class="headerlink" title="聊天"></a>聊天</h2><ol><li>平常怎么学习知识的？Java怎么学的？</li><li>平常有没有看过什么底层的东西？</li><li>平常喜欢干点啥？公众号有看一些吗？书有看一些吗？</li></ol><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li><p>介绍公司项目</p></li><li><p>介绍详细做的工作</p></li><li><p>bulk deletion方案介绍</p></li><li><p>ClamAV 部署在几个服务器上？</p><blockquote><p>答：开始两个，实现 password + username &#x2F; mTLS 认证，后来合并成一个</p></blockquote></li><li><p>ClamAV 实现并发处理？</p><blockquote><p>答：服务端开线程池</p></blockquote></li><li><p>如果来的请求太多，应该怎么处理？</p><blockquote><p>答：1.增加服务器数量，集群+负载均衡<br>2.任务队列设置拒绝策略，直接向用户返回异常</p></blockquote></li><li><p>如果用户可以等待很久，怎么处理？</p><blockquote><p>答：尽可能的扩大任务队列，使用无界的阻塞队列</p></blockquote></li><li><p>如果服务器突然宕机，怎么处理？（讲思路就行）</p><blockquote><p>答：开个副本记录任务队列的信息</p></blockquote></li><li><p>以上方案的情况下，异步怎么操作？</p><blockquote><p>答：任务进入任务队列时，进入核心线程处理 + 副本记录，若宕机则返回异常 + 副本记录；<br>   任务正常处理完后，返回response + 副本去掉</p></blockquote></li><li><p>JVM了解过吗（类加载、gc）</p></li><li><p>设计模式了解过吗</p></li><li><p>基本的数据结构了解吗</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>阿里</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2023-8-27得物Java一面</title>
+    <link href="/2023/08/28/2023-8-27%E5%BE%97%E7%89%A9Java%E4%B8%80%E9%9D%A2/"/>
+    <url>/2023/08/28/2023-8-27%E5%BE%97%E7%89%A9Java%E4%B8%80%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-8-27得物Java一面"><a href="#2023-8-27得物Java一面" class="headerlink" title="2023-8-27得物Java一面"></a>2023-8-27得物Java一面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>介绍项目</li><li>一致性哈希算法详解</li><li>Gossip协议讲解</li><li>哪里用到了并发编程？（心跳检测定时器，socket查询请求多线程）</li><li>项目微服务直接怎么互相通信？</li><li>微服务的注册中心是什么？SpringCloud有用注册中心吗？</li><li>bean的生命周期？</li><li>介绍一下依赖注入</li><li>JVM的垃圾处理机制</li></ol><h2 id="智力题"><a href="#智力题" class="headerlink" title="智力题"></a>智力题</h2><ol><li>四个人过独木桥，求最短时间</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>得物</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023-8-25用友提前批Java一面</title>
     <link href="/2023/08/25/2023-8-26%E7%94%A8%E5%8F%8B%E6%8F%90%E5%89%8D%E6%89%B9Java%E4%B8%80%E9%9D%A2/"/>
     <url>/2023/08/25/2023-8-26%E7%94%A8%E5%8F%8B%E6%8F%90%E5%89%8D%E6%89%B9Java%E4%B8%80%E9%9D%A2/</url>
     
-    <content type="html"><![CDATA[<h1 id="2023-8-25用友提前批Java一面"><a href="#2023-8-25用友提前批Java一面" class="headerlink" title="2023-8-25用友提前批Java一面"></a>2023-8-25用友提前批Java一面</h1><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>职业生涯规划？</p><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>介绍一下项目？（DBLP查询）</li></ol><h3 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h3><ol start="2"><li>一致性哈希的原理？</li></ol><h3 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h3><ol start="3"><li>DBLP查询里建立的socket连接是长连接还是短连接？长连接的话有没有可能出现性能问题？（只有一个client）</li><li>介绍一下你了解的长连接高并发的性能问题处理方案</li><li>socket通信的数据包是自定义的还是什么框架或工具导进来的？</li><li>前端发送一个请求，怎么到后端进行处理？全过程</li><li>前端怎么获取URL的IP和端口号？</li><li>后端tomcat上怎么接受一个前端请求或者接受一个URL，再到controller、service往下去具体处理？</li></ol><h3 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h3><ol start="9"><li>怎么新建一个类的对象？（new、bean）</li><li>bean的加载方式？</li><li>bean的加载机制？</li><li>定义bean的方式？</li><li>有@Component、@Service这些注解，一定会被Spring加载成bean吗？（考Spring的扫描范围）</li></ol><h3 id="Java基础"><a href="#Java基础" class="headerlink" title="Java基础"></a>Java基础</h3><ol start="14"><li>抽象类和接口区别？多个接口+一个类 可不可以代替 抽象类？（可以）</li><li>抽象类、接口中可以没有方法吗？（可以）</li><li>static可以修饰什么？各自有什么用？</li><li>静态代码块有异常会怎么样？（编译时报错）</li><li>如果静态代码块有异常，令JVM忽略此异常，运行到这里会发生什么？（NoClassDefiniteException）</li><li>final、finally介绍一下</li><li>try-catch-finally结构中执行顺序&amp;return相关问题</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="2023-8-25用友提前批Java一面"><a href="#2023-8-25用友提前批Java一面" class="headerlink" title="2023-8-25用友提前批Java一面"></a>2023-8-25用友提前批Java一面</h1><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>职业生涯规划？</p><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>介绍一下项目？（DBLP查询）</li></ol><h3 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h3><ol start="2"><li>一致性哈希的原理？</li></ol><h3 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h3><ol start="3"><li>DBLP查询里建立的socket连接是长连接还是短连接？长连接的话有没有可能出现性能问题？（只有一个client）</li><li>介绍一下你了解的长连接高并发的性能问题处理方案</li><li>socket通信的数据包是自定义的还是什么框架或工具导进来的？</li><li>怎么区分来的请求具体是哪种查询？</li><li>前端发送一个请求，怎么到后端进行处理？全过程</li><li>前端怎么获取URL的IP和端口号？</li><li>后端tomcat上怎么接受一个前端请求或者接受一个URL，再到controller、service往下去具体处理？</li></ol><h3 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h3><ol start="9"><li>怎么新建一个类的对象？（new、bean）</li><li>bean的加载方式？</li><li>bean的加载机制？</li><li>定义bean的方式？</li><li>有@Component、@Service这些注解，一定会被Spring加载成bean吗？（考Spring的扫描范围）</li></ol><h3 id="Java基础"><a href="#Java基础" class="headerlink" title="Java基础"></a>Java基础</h3><ol start="14"><li>抽象类和接口区别？多个接口+一个类 可不可以代替 抽象类？（可以）</li><li>抽象类、接口中可以没有方法吗？（可以）</li><li>static可以修饰什么？各自有什么用？</li><li>静态代码块有异常会怎么样？（编译时报错）</li><li>如果静态代码块有异常，令JVM忽略此异常，运行到这里会发生什么？（NoClassDefiniteException）</li><li>final、finally介绍一下</li><li>try-catch-finally结构中执行顺序&amp;return相关问题</li></ol>]]></content>
     
     
     <categories>
@@ -267,9 +333,9 @@
       
       <category>后端面经</category>
       
-      <category>C++面经</category>
-      
       <category>Java面经</category>
+      
+      <category>C++面经</category>
       
     </categories>
     
@@ -333,9 +399,9 @@
       
       <category>后端面经</category>
       
-      <category>C++面经</category>
-      
       <category>Java面经</category>
+      
+      <category>C++面经</category>
       
     </categories>
     
@@ -563,9 +629,9 @@
       
       <category>后端面经</category>
       
-      <category>C++面经</category>
-      
       <category>Java面经</category>
+      
+      <category>C++面经</category>
       
     </categories>
     
