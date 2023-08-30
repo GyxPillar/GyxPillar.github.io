@@ -4,6 +4,39 @@
   
   
   <entry>
+    <title>2023-8-29字节后端一面</title>
+    <link href="/2023/08/30/2023-8-29%E5%AD%97%E8%8A%82%E5%90%8E%E7%AB%AF%E4%B8%80%E9%9D%A2/"/>
+    <url>/2023/08/30/2023-8-29%E5%AD%97%E8%8A%82%E5%90%8E%E7%AB%AF%E4%B8%80%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-8-29字节后端一面"><a href="#2023-8-29字节后端一面" class="headerlink" title="2023-8-29字节后端一面"></a>2023-8-29字节后端一面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>聊项目（DBLP）</li><li>定时器怎么用的？</li><li>一致性哈希基本原理？倾斜怎么办？</li><li>无主从结构的分布式存储，怎么进行写操作更新？</li><li>主从集群 脑裂问题听说过吗？</li><li>catalog 里面 bulk deletion 软删除，可以改为定时在数据库中对 media 删除</li><li>介绍一下堆排序？堆排序的时间复杂度？</li><li>Java 如何保证线程安全？</li><li>volatile 作用？能保证线程安全吗？</li><li>讲讲数据库引擎？为什么Mysql使用B+树？</li><li>事务四大隔离级别？RR怎么实现的？（MVCC）</li><li>MVCC里当新插入or删除一条数据怎么办？</li></ol><h2 id="手撕"><a href="#手撕" class="headerlink" title="手撕"></a>手撕</h2><ol><li>剑指II 089.加强版，改为首尾相连</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>字节</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023-8-28饿了么Java一面</title>
     <link href="/2023/08/28/2023-8-28%E9%A5%BF%E4%BA%86%E4%B9%88Java%E4%B8%80%E9%9D%A2/"/>
     <url>/2023/08/28/2023-8-28%E9%A5%BF%E4%BA%86%E4%B9%88Java%E4%B8%80%E9%9D%A2/</url>
