@@ -16,26 +16,26 @@
   <meta name="author" content="Pillar Gao">
   <meta name="keywords" content="恋爱,同济大学,软件工程,计算机,学习,笔试,面试">
   
-    <meta name="description" content="IoC、数据库分页&amp;过滤、部署、MongoDB、微信业务相关、C++内存泄漏">
+    <meta name="description" content="2023-9-5快手Java（复活甲）三面技术问题 Gossip协议怎么实现？ 有了解其他分布式协议吗？ 一致性哈希算法？ count(1), count(*), count(column_name)区别？ 线程池参数？ forkjoinpool有了解吗？ 用过哪些开源组件？数据库？微服务？ JDK1.8的新特性有哪些？  手撕 给一个数组，一个数n，求这个数组中全部为和为n的数字组合（个数不一定">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2023-7-5华为公共开发部二面（主管面）（已通过）">
-<meta property="og:url" content="https://example.com/2023/07/05/2023-7-6%E5%8D%8E%E4%B8%BA%E5%85%AC%E5%85%B1%E5%BC%80%E5%8F%91%E9%83%A8%E4%BA%8C%E9%9D%A2%EF%BC%88%E4%B8%BB%E7%AE%A1%E9%9D%A2%EF%BC%89/index.html">
+<meta property="og:title" content="2023-9-5快手Java（复活甲）三面">
+<meta property="og:url" content="https://example.com/2023/09/05/2023-9-5%E5%BF%AB%E6%89%8BJava%EF%BC%88%E5%A4%8D%E6%B4%BB%E7%94%B2-1%EF%BC%89%E4%B8%89%E9%9D%A2/index.html">
 <meta property="og:site_name" content="Pillar&#39;s Blog ♥ zhy">
-<meta property="og:description" content="IoC、数据库分页&amp;过滤、部署、MongoDB、微信业务相关、C++内存泄漏">
+<meta property="og:description" content="2023-9-5快手Java（复活甲）三面技术问题 Gossip协议怎么实现？ 有了解其他分布式协议吗？ 一致性哈希算法？ count(1), count(*), count(column_name)区别？ 线程池参数？ forkjoinpool有了解吗？ 用过哪些开源组件？数据库？微服务？ JDK1.8的新特性有哪些？  手撕 给一个数组，一个数n，求这个数组中全部为和为n的数字组合（个数不一定">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-07-05T08:23:52.000Z">
-<meta property="article:modified_time" content="2023-07-06T14:33:45.602Z">
+<meta property="article:published_time" content="2023-09-05T08:37:42.000Z">
+<meta property="article:modified_time" content="2023-09-05T08:46:04.940Z">
 <meta property="article:author" content="Pillar Gao">
 <meta property="article:tag" content="面经">
 <meta property="article:tag" content="Java">
-<meta property="article:tag" content="C++">
+<meta property="article:tag" content="快手">
 <meta name="twitter:card" content="summary_large_image">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>2023-7-5华为公共开发部二面（主管面）（已通过） - Pillar&#39;s Blog ♥ zhy</title>
+  <title>2023-9-5快手Java（复活甲）三面 - Pillar&#39;s Blog ♥ zhy</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -216,7 +216,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="2023-7-5华为公共开发部二面（主管面）（已通过）"></span>
+            <span id="subtitle" data-typed-text="2023-9-5快手Java（复活甲）三面"></span>
           
         </div>
 
@@ -227,8 +227,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-07-05 16:23" pubdate>
-          2023年7月5日 下午
+        <time datetime="2023-09-05 16:37" pubdate>
+          2023年9月5日 下午
         </time>
       </span>
     
@@ -239,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          256 字
+          188 字
         
       </span>
     
@@ -250,7 +250,7 @@
         
         
         
-          3 分钟
+          2 分钟
         
       </span>
     
@@ -288,25 +288,23 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">2023-7-5华为公共开发部二面（主管面）（已通过）</h1>
+            <h1 style="display: none">2023-9-5快手Java（复活甲）三面</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="2023-7-5华为公共开发部二面（主管面）（已通过）"><a href="#2023-7-5华为公共开发部二面（主管面）（已通过）" class="headerlink" title="2023-7-5华为公共开发部二面（主管面）（已通过）"></a>2023-7-5华为公共开发部二面（主管面）（已通过）</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol>
-<li>Spring你认为你理解比较好的知识点？（回答了IoC）</li>
-<li>DBLP查询的项目有没有做<code>分页</code>和<code>过滤</code>？</li>
-<li>一排一座的部署是部署到不同的逻辑上吗？</li>
-<li>一排一座为什么使用MongoDB？</li>
-<li>CravingStudy涉及到哪些其他业务？（和微信相关的部分）</li>
-<li>C++的内存泄露是什么？如何避免？</li>
+                <h1 id="2023-9-5快手Java（复活甲）三面"><a href="#2023-9-5快手Java（复活甲）三面" class="headerlink" title="2023-9-5快手Java（复活甲）三面"></a>2023-9-5快手Java（复活甲）三面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol>
+<li>Gossip协议怎么实现？</li>
+<li>有了解其他分布式协议吗？</li>
+<li>一致性哈希算法？</li>
+<li>count(1), count(*), count(column_name)区别？</li>
+<li>线程池参数？</li>
+<li>forkjoinpool有了解吗？</li>
+<li>用过哪些开源组件？数据库？微服务？</li>
+<li>JDK1.8的新特性有哪些？</li>
 </ol>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ol>
-<li>对加班看法？</li>
-<li>未来职业方向规划？</li>
-<li>其他领域的（如金融等）知识怎么学习？</li>
-<li>平常拿到一个项目，如何学习并实现？</li>
-<li>有没有组队工作经验？在组队工作中有没有和其他队员互相争论，最后说服对方的情况出现？</li>
+<h2 id="手撕"><a href="#手撕" class="headerlink" title="手撕"></a>手撕</h2><ol>
+<li>给一个数组，一个数n，求这个数组中全部为和为n的数字组合（个数不一定）</li>
 </ol>
 
                 
@@ -336,7 +334,7 @@
   
     <span>></span>
     
-  <a href="/categories/%E9%9D%A2%E7%BB%8F/%E5%90%8E%E7%AB%AF%E9%9D%A2%E7%BB%8F/C-%E9%9D%A2%E7%BB%8F/" class="category-chain-item">C++面经</a>
+  <a href="/categories/%E9%9D%A2%E7%BB%8F/%E5%90%8E%E7%AB%AF%E9%9D%A2%E7%BB%8F/Java%E9%9D%A2%E7%BB%8F/" class="category-chain-item">Java面经</a>
   
   
 
@@ -359,7 +357,7 @@
       
         <a href="/tags/Java/">#Java</a>
       
-        <a href="/tags/C/">#C++</a>
+        <a href="/tags/%E5%BF%AB%E6%89%8B/">#快手</a>
       
     </div>
   
@@ -371,8 +369,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>2023-7-5华为公共开发部二面（主管面）（已通过）</div>
-      <div>https://example.com/2023/07/05/2023-7-6华为公共开发部二面（主管面）/</div>
+      <div>2023-9-5快手Java（复活甲）三面</div>
+      <div>https://example.com/2023/09/05/2023-9-5快手Java（复活甲-1）三面/</div>
     </div>
     <div class="license-meta">
       
@@ -384,7 +382,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年7月5日</div>
+          <div>2023年9月5日</div>
         </div>
       
       
@@ -416,18 +414,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/07/13/2023-7-13%E6%A0%BC%E5%8A%9B%E7%94%B5%E5%99%A8%E4%B8%80%E9%9D%A2/" title="2023-7-13格力电器一面">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">2023-7-13格力电器一面</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/06/29/2023-6-29%E5%8D%8E%E4%B8%BA%E5%85%AC%E5%85%B1%E5%BC%80%E5%8F%91%E9%83%A8%E4%B8%80%E9%9D%A2/" title="2023-6-29华为公共开发部一面">
-                        <span class="hidden-mobile">2023-6-29华为公共开发部一面</span>
+                      <a href="/2023/09/04/2023-9-4%E7%94%A8%E5%8F%8BJava%E4%BA%8C%E9%9D%A2/" title="2023-9-4用友Java二面">
+                        <span class="hidden-mobile">2023-9-4用友Java二面</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

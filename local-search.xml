@@ -4,6 +4,103 @@
   
   
   <entry>
+    <title>2023-9-5快手Java（复活甲）三面</title>
+    <link href="/2023/09/05/2023-9-5%E5%BF%AB%E6%89%8BJava%EF%BC%88%E5%A4%8D%E6%B4%BB%E7%94%B2-1%EF%BC%89%E4%B8%89%E9%9D%A2/"/>
+    <url>/2023/09/05/2023-9-5%E5%BF%AB%E6%89%8BJava%EF%BC%88%E5%A4%8D%E6%B4%BB%E7%94%B2-1%EF%BC%89%E4%B8%89%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-9-5快手Java（复活甲）三面"><a href="#2023-9-5快手Java（复活甲）三面" class="headerlink" title="2023-9-5快手Java（复活甲）三面"></a>2023-9-5快手Java（复活甲）三面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>Gossip协议怎么实现？</li><li>有了解其他分布式协议吗？</li><li>一致性哈希算法？</li><li>count(1), count(*), count(column_name)区别？</li><li>线程池参数？</li><li>forkjoinpool有了解吗？</li><li>用过哪些开源组件？数据库？微服务？</li><li>JDK1.8的新特性有哪些？</li></ol><h2 id="手撕"><a href="#手撕" class="headerlink" title="手撕"></a>手撕</h2><ol><li>给一个数组，一个数n，求这个数组中全部为和为n的数字组合（个数不一定）</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>快手</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2023-9-4用友Java二面</title>
+    <link href="/2023/09/04/2023-9-4%E7%94%A8%E5%8F%8BJava%E4%BA%8C%E9%9D%A2/"/>
+    <url>/2023/09/04/2023-9-4%E7%94%A8%E5%8F%8BJava%E4%BA%8C%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-9-4用友Java二面"><a href="#2023-9-4用友Java二面" class="headerlink" title="2023-9-4用友Java二面"></a>2023-9-4用友Java二面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>线程有哪些状态？怎么唤醒线程？</li><li>sleep（）和wait（）区别？</li><li>Spring IOC&amp;AOP？各自怎么实现？</li><li>怎么具体在Spring项目里具体实现一个AOP？</li><li>微信小程序怎么做鉴权？</li><li>mongodb 和 mysql 区别？各自适用什么场景？</li><li>linux 实时查看监控滚动的线上日志？</li><li>linux 在指定目录查找字符串存在位置？</li></ol><h2 id="手撕"><a href="#手撕" class="headerlink" title="手撕"></a>手撕</h2><ol><li>无序数组中第3大的数</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2023-9-4淘天集团Java二面</title>
+    <link href="/2023/09/04/2023-9-4%E6%B7%98%E5%A4%A9%E9%9B%86%E5%9B%A2Java%E4%BA%8C%E9%9D%A2/"/>
+    <url>/2023/09/04/2023-9-4%E6%B7%98%E5%A4%A9%E9%9B%86%E5%9B%A2Java%E4%BA%8C%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-9-1淘天Java二面"><a href="#2023-9-1淘天Java二面" class="headerlink" title="2023-9-1淘天Java二面"></a>2023-9-1淘天Java二面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>为什么使用Groovy而不是Java进行文件划分？后面为什么用Java不用Groovy？</li><li>整个项目的架构？</li><li>client怎么去获知有哪些server是存活的？</li><li>Gossip协议？特点有什么？具体每个节点怎么通信？</li><li>Gossip的传播模式（反熵和谣言传播详解）？</li><li>怎么存储组成员的状态？</li><li>Gossip的缺点优点？有没有出现过两个节点互相共享信息出现信息不一致的情况？维护版本号知道吗？</li><li>进程通信方式？</li><li>Java11&amp;Java17的新特性？</li><li>自己用哪些Java版本？</li><li>github地址看一下？</li><li>看过哪些书？有什么收获？</li><li>了解哪些开源组件？</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>阿里</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023-9-1快手Java二面（复活甲*1）</title>
     <link href="/2023/09/01/2023-9-1%E5%BF%AB%E6%89%8BJava%E4%BA%8C%E9%9D%A2%EF%BC%88%E5%A4%8D%E6%B4%BB%E7%94%B2%EF%BC%89/"/>
     <url>/2023/09/01/2023-9-1%E5%BF%AB%E6%89%8BJava%E4%BA%8C%E9%9D%A2%EF%BC%88%E5%A4%8D%E6%B4%BB%E7%94%B2%EF%BC%89/</url>
@@ -498,9 +595,9 @@
       
       <category>后端面经</category>
       
-      <category>Java面经</category>
-      
       <category>C++面经</category>
+      
+      <category>Java面经</category>
       
     </categories>
     
@@ -564,9 +661,9 @@
       
       <category>后端面经</category>
       
-      <category>Java面经</category>
-      
       <category>C++面经</category>
+      
+      <category>Java面经</category>
       
     </categories>
     
@@ -794,9 +891,9 @@
       
       <category>后端面经</category>
       
-      <category>Java面经</category>
-      
       <category>C++面经</category>
+      
+      <category>Java面经</category>
       
     </categories>
     
