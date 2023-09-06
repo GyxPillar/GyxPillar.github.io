@@ -4,6 +4,72 @@
   
   
   <entry>
+    <title>2023-9-6灵犀互娱Java一面</title>
+    <link href="/2023/09/06/2023-9-6%E7%81%B5%E7%8A%80%E4%BA%92%E5%A8%B1Java%E4%B8%80%E9%9D%A2/"/>
+    <url>/2023/09/06/2023-9-6%E7%81%B5%E7%8A%80%E4%BA%92%E5%A8%B1Java%E4%B8%80%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-9-6灵犀互娱Java一面"><a href="#2023-9-6灵犀互娱Java一面" class="headerlink" title="2023-9-6灵犀互娱Java一面"></a>2023-9-6灵犀互娱Java一面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><h3 id="实习经历"><a href="#实习经历" class="headerlink" title="实习经历"></a>实习经历</h3><ol><li>bulk deletion为什么只能单线程删除？</li><li>用的什么开发框架、工具？</li><li>整个项目实现了哪些功能？</li></ol><h3 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h3><ol><li>Mysql的引擎有哪些？</li><li>InnoDB vs MyISAM</li><li>B+树优点？</li><li>B+树插入和删除的过程？</li><li>B+树计算高度？</li><li>何时使用索引？为什么修改操作多时不建议使用索引？</li><li>关系型数据库 vs 非关系型数据库</li><li>mongodb的存储结构？存储引擎？</li><li>mongodb优点？适用场景？为什么适用于SNS？</li><li>为什么现在很多数据仍然使用关系型数据库进行长期存储？mongodb为什么不行？</li></ol><h3 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h3><ol><li>linux怎么实现一个进程？</li></ol><h3 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h3><ol><li>进程和线程最根本的区别？</li><li>线程哪些资源共享？哪些资源独有？ </li><li>进程的调度算法有哪些？</li><li>windows用的什么调度方法？</li></ol><h3 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h3><ol><li>Java8新特性</li><li>Java8使用什么垃圾回收器？</li><li>收集器的回收过程？</li><li>CMS收集器工作步骤？</li><li>JMM？Integer创建局部变量，值在哪？址在哪？</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>阿里</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2023-9-6美团Java二面</title>
+    <link href="/2023/09/06/2023-9-6%E7%BE%8E%E5%9B%A2Java%E4%BA%8C%E9%9D%A2/"/>
+    <url>/2023/09/06/2023-9-6%E7%BE%8E%E5%9B%A2Java%E4%BA%8C%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-9-6美团Java二面"><a href="#2023-9-6美团Java二面" class="headerlink" title="2023-9-6美团Java二面"></a>2023-9-6美团Java二面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>Gossip协议详解？</li><li>无主结构怎么做读写分离？</li><li>其他分布式算法了解哪些？CAP了解吗？</li><li>一致性哈希算法？</li><li>设计模式了解哪些？使用过哪些？策略模式适用于什么场景下？</li><li>volatile做什么的？</li><li>哪些课程或技术比较擅长？（数据结构算法、并发编程）</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>美团</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023-9-5快手Java（复活甲）三面</title>
     <link href="/2023/09/05/2023-9-5%E5%BF%AB%E6%89%8BJava%EF%BC%88%E5%A4%8D%E6%B4%BB%E7%94%B2-1%EF%BC%89%E4%B8%89%E9%9D%A2/"/>
     <url>/2023/09/05/2023-9-5%E5%BF%AB%E6%89%8BJava%EF%BC%88%E5%A4%8D%E6%B4%BB%E7%94%B2-1%EF%BC%89%E4%B8%89%E9%9D%A2/</url>
@@ -595,9 +661,9 @@
       
       <category>后端面经</category>
       
-      <category>C++面经</category>
-      
       <category>Java面经</category>
+      
+      <category>C++面经</category>
       
     </categories>
     
@@ -661,9 +727,9 @@
       
       <category>后端面经</category>
       
-      <category>C++面经</category>
-      
       <category>Java面经</category>
+      
+      <category>C++面经</category>
       
     </categories>
     
@@ -891,9 +957,9 @@
       
       <category>后端面经</category>
       
-      <category>C++面经</category>
-      
       <category>Java面经</category>
+      
+      <category>C++面经</category>
       
     </categories>
     

@@ -16,19 +16,18 @@
   <meta name="author" content="Pillar Gao">
   <meta name="keywords" content="恋爱,同济大学,软件工程,计算机,学习,笔试,面试">
   
-    <meta name="description" content="相关内容：关系型与非关系型数据库、数据库ACID、隔离等级；TCP与UDP、HTTP状态码；线程与进程、线程调度、死锁；Spring；面向对象；栈、哈希、二叉树的遍历">
+    <meta name="description" content="2023-9-6美团Java二面技术问题 Gossip协议详解？ 无主结构怎么做读写分离？ 其他分布式算法了解哪些？CAP了解吗？ 一致性哈希算法？ 设计模式了解哪些？使用过哪些？策略模式适用于什么场景下？ volatile做什么的？ 哪些课程或技术比较擅长？（数据结构算法、并发编程）">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2023-3-29美团后端一面（已挂）">
-<meta property="og:url" content="https://example.com/2023/03/29/2023-3-29%E7%BE%8E%E5%9B%A2%E5%AE%9E%E4%B9%A0%E4%B8%80%E9%9D%A2/index.html">
+<meta property="og:title" content="2023-9-6美团Java二面">
+<meta property="og:url" content="https://example.com/2023/09/06/2023-9-6%E7%BE%8E%E5%9B%A2Java%E4%BA%8C%E9%9D%A2/index.html">
 <meta property="og:site_name" content="Pillar&#39;s Blog ♥ zhy">
-<meta property="og:description" content="相关内容：关系型与非关系型数据库、数据库ACID、隔离等级；TCP与UDP、HTTP状态码；线程与进程、线程调度、死锁；Spring；面向对象；栈、哈希、二叉树的遍历">
+<meta property="og:description" content="2023-9-6美团Java二面技术问题 Gossip协议详解？ 无主结构怎么做读写分离？ 其他分布式算法了解哪些？CAP了解吗？ 一致性哈希算法？ 设计模式了解哪些？使用过哪些？策略模式适用于什么场景下？ volatile做什么的？ 哪些课程或技术比较擅长？（数据结构算法、并发编程）">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-03-29T13:23:30.000Z">
-<meta property="article:modified_time" content="2023-05-11T13:08:53.654Z">
+<meta property="article:published_time" content="2023-09-06T15:23:31.000Z">
+<meta property="article:modified_time" content="2023-09-06T15:31:01.728Z">
 <meta property="article:author" content="Pillar Gao">
 <meta property="article:tag" content="面经">
 <meta property="article:tag" content="Java">
-<meta property="article:tag" content="C++">
 <meta property="article:tag" content="美团">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -36,7 +35,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>2023-3-29美团后端一面（已挂） - Pillar&#39;s Blog ♥ zhy</title>
+  <title>2023-9-6美团Java二面 - Pillar&#39;s Blog ♥ zhy</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -217,7 +216,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="2023-3-29美团后端一面（已挂）"></span>
+            <span id="subtitle" data-typed-text="2023-9-6美团Java二面"></span>
           
         </div>
 
@@ -228,8 +227,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-03-29 21:23" pubdate>
-          2023年3月29日 晚上
+        <time datetime="2023-09-06 23:23" pubdate>
+          2023年9月6日 晚上
         </time>
       </span>
     
@@ -240,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.2k 字
+          136 字
         
       </span>
     
@@ -251,7 +250,7 @@
         
         
         
-          10 分钟
+          2 分钟
         
       </span>
     
@@ -289,54 +288,20 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">2023-3-29美团后端一面（已挂）</h1>
+            <h1 style="display: none">2023-9-6美团Java二面</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="2023-3-29美团后端一面（已挂）"><a href="#2023-3-29美团后端一面（已挂）" class="headerlink" title="2023-3-29美团后端一面（已挂）"></a>2023-3-29美团后端一面（已挂）</h1><h2 id="JD"><a href="#JD" class="headerlink" title="JD"></a>JD</h2><h3 id="基础信息"><a href="#基础信息" class="headerlink" title="基础信息"></a>基础信息</h3><p>【转正实习】后端开发工程师</p>
-<h3 id="岗位职责"><a href="#岗位职责" class="headerlink" title="岗位职责"></a>岗位职责</h3><p>1.负责各类后台服务和业务系统的需求分析、系统设计、开发实现；<br>2.参与后端模块、数据平台、基础服务等的开发工作；<br>3.分析并优化业务流程，参与系统长期架构设计与规划，探索合理、可扩展的系统模型，通过自动化等手段提升研发效率，提升需求迭代速度与系统能力；<br>4.保证系统稳定性，提升系统的容灾、降级及应急能力，提升系统的可用性和可维护性，协同QA保证高质量开发交付，优化系统性能、及时排查线上故障，保证系统稳定；<br>5.积极主动协调相关团队完成项目，促进团队合作，积极影响其它成员。</p>
-<h3 id="任职要求"><a href="#任职要求" class="headerlink" title="任职要求"></a>任职要求</h3><p>1.本科及以上学历；<br>2.掌握一种以上的开发语言，包括但不限于Java、C、C++、Python、Golang等，了解MySQL等基本使用，熟练使用SQL语句，会常用的shell命令；<br>3.具有扎实的数据结构、操作系统、数据库、算法、网络等计算机基础知识；<br>4.优秀的学习能力和自驱力，对新技术有强烈的求知精神，能深入代码研究，能通过英文论文等第一手资料了解业界新技术，积极学习新技术提升自我、提升团队；<br>5.优秀的逻辑思维能力，特别是流程梳理能力和建模能力，善于从复杂系统表象中分析问题。具有较强的解决问题能力，对解决复杂问题充满激情；<br>6.善于交流，有良好的团队合作精神和协调沟通能力，有一定推动能力。<br>具备以下经验者优先<br>1.有参与各级计算机竞赛并获奖经历；<br>2.有原创的技术博客或者开源项目或者参与过知名的开源项目。<br>岗位亮点<br>1.美团业务场景复杂，能够接触商家、销售、广告营运、骑手等的各种需求，流量超大，且仍在高速发展中，相关的后台系统建设非常具有挑战性；<br>2.公司技术氛围浓厚，对外有知名的技术博客，对内有技术学院和技术委员会，大牛众多，各层级的技术交流和培训机制非常完善。</p>
-<h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><h3 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h3><ol>
-<li>用过哪些数据库？<blockquote>
-<p>答：<code>mysql</code>、<code>mongodb</code></p>
-</blockquote>
-</li>
-<li>关系型数据库和非关系型数据库区别？</li>
-<li>数据库的ACID是什么？</li>
-<li>数据库的隔离等级和应用场景</li>
-<li><code>Mysql</code>中<code>varchar</code>和<code>char</code>区别</li>
+                <h1 id="2023-9-6美团Java二面"><a href="#2023-9-6美团Java二面" class="headerlink" title="2023-9-6美团Java二面"></a>2023-9-6美团Java二面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol>
+<li>Gossip协议详解？</li>
+<li>无主结构怎么做读写分离？</li>
+<li>其他分布式算法了解哪些？CAP了解吗？</li>
+<li>一致性哈希算法？</li>
+<li>设计模式了解哪些？使用过哪些？策略模式适用于什么场景下？</li>
+<li>volatile做什么的？</li>
+<li>哪些课程或技术比较擅长？（数据结构算法、并发编程）</li>
 </ol>
-<h3 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h3><ol>
-<li><code>TCP</code>和<code>UDP</code>的区别？</li>
-<li><code>http</code>状态码有哪些？</li>
-</ol>
-<h3 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h3><ol>
-<li>线程和进程的区别？</li>
-<li>线程之间如何通信？</li>
-<li>死锁有哪些情况可以触发？如何避免？</li>
-</ol>
-<h3 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h3><ol>
-<li>谈谈你对Spring的了解？<blockquote>
-<p>答：仅仅使用过，未深究原理</p>
-</blockquote>
-</li>
-<li>你认为Spring在开发中给你带来了哪些便利和优点？</li>
-</ol>
-<h3 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h3><ol>
-<li>谈谈你对面向对象的了解，与面向过程的区别？</li>
-<li>面向对象的特点？<blockquote>
-<p>答：封装、继承、多态</p>
-</blockquote>
-</li>
-<li>多态如何体现？重写和重载的区别？</li>
-</ol>
-<h3 id="数据结构和算法"><a href="#数据结构和算法" class="headerlink" title="数据结构和算法"></a>数据结构和算法</h3><ol>
-<li>谈谈栈的特点和<strong>应用</strong>（应多了解栈在开发中的应用场景）</li>
-<li>什么是哈希冲突？怎么解决？</li>
-</ol>
-<h3 id="手撕"><a href="#手撕" class="headerlink" title="手撕"></a>手撕</h3><p>二叉树的层序遍历、前序遍历</p>
-<h2 id="体验"><a href="#体验" class="headerlink" title="体验"></a>体验</h2><p>人生第一次正儿八经的技术面试，比较紧张，基础知识掌握很差，发挥也一般，认识到了自己与工作面试要求的差距之大。<br>面试官人比较和蔼，经常给予鼓励，印象很好。</p>
 
                 
               </div>
@@ -388,8 +353,6 @@
       
         <a href="/tags/Java/">#Java</a>
       
-        <a href="/tags/C/">#C++</a>
-      
         <a href="/tags/%E7%BE%8E%E5%9B%A2/">#美团</a>
       
     </div>
@@ -402,8 +365,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>2023-3-29美团后端一面（已挂）</div>
-      <div>https://example.com/2023/03/29/2023-3-29美团实习一面/</div>
+      <div>2023-9-6美团Java二面</div>
+      <div>https://example.com/2023/09/06/2023-9-6美团Java二面/</div>
     </div>
     <div class="license-meta">
       
@@ -415,7 +378,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年3月29日</div>
+          <div>2023年9月6日</div>
         </div>
       
       
@@ -447,15 +410,21 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/04/01/2023-4-1%E8%8C%B5%E7%BD%97%E7%A7%91%E6%8A%80%E9%9D%A2%E8%AF%95%EF%BC%88%E5%B7%B2OC%EF%BC%89/" title="2023-4-1茵罗科技面试（已OC）">
+                      <a href="/2023/09/06/2023-9-6%E7%81%B5%E7%8A%80%E4%BA%92%E5%A8%B1Java%E4%B8%80%E9%9D%A2/" title="2023-9-6灵犀互娱Java一面">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">2023-4-1茵罗科技面试（已OC）</span>
+                        <span class="hidden-mobile">2023-9-6灵犀互娱Java一面</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2023/09/05/2023-9-5%E5%BF%AB%E6%89%8BJava%EF%BC%88%E5%A4%8D%E6%B4%BB%E7%94%B2-1%EF%BC%89%E4%B8%89%E9%9D%A2/" title="2023-9-5快手Java（复活甲）三面">
+                        <span class="hidden-mobile">2023-9-5快手Java（复活甲）三面</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
