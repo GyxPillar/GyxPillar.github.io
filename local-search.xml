@@ -4,6 +4,39 @@
   
   
   <entry>
+    <title>2023-9-7蔚来后端Java一面</title>
+    <link href="/2023/09/07/2023-9-7%E8%94%9A%E6%9D%A5%E5%90%8E%E7%AB%AFJava%E4%B8%80%E9%9D%A2/"/>
+    <url>/2023/09/07/2023-9-7%E8%94%9A%E6%9D%A5%E5%90%8E%E7%AB%AFJava%E4%B8%80%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-9-7蔚来后端Java一面"><a href="#2023-9-7蔚来后端Java一面" class="headerlink" title="2023-9-7蔚来后端Java一面"></a>2023-9-7蔚来后端Java一面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><h3 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h3><ol><li>了解哪些设计模式？</li><li>责任链模式讲解一下？适用于哪种场景？代码怎么实现？</li><li>单例模式哪两种？哪种使用了static让外界进行访问？为什么static可以实现访问？</li><li>static具体怎么实现的？在JVM中存放于什么地方？</li></ol><h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><ol><li>中间件用过哪些？（消息队列、缓存、搜索引擎）</li><li>redis怎么实现空间搜索？（微信摇一摇这种）</li><li>redis为什么快？</li></ol><h3 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h3><ol><li>Mysql回表是什么？</li><li>回表怎么解决？</li><li>回表返回的是一行还是一张表还是索引什么的？</li><li>表的结构是什么？</li><li>Mysql常见优化手段？</li><li>Mysql索引什么情况适用？什么情况不适用？</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>蔚来</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023-9-6灵犀互娱Java一面</title>
     <link href="/2023/09/06/2023-9-6%E7%81%B5%E7%8A%80%E4%BA%92%E5%A8%B1Java%E4%B8%80%E9%9D%A2/"/>
     <url>/2023/09/06/2023-9-6%E7%81%B5%E7%8A%80%E4%BA%92%E5%A8%B1Java%E4%B8%80%E9%9D%A2/</url>

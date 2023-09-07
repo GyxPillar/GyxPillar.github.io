@@ -16,32 +16,36 @@
   <meta name="author" content="Pillar Gao">
   <meta name="keywords" content="恋爱,同济大学,软件工程,计算机,学习,笔试,面试">
   
-    <meta name="description" content="本网站为同济大学2020级软件工程本科生高逸轩的个人博客，记录个人计算机知识学习、求职面试笔试经验等。另记录和女朋友的恋爱时刻。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Pillar&#39;s Blog ♥ zhy">
-<meta property="og:url" content="https://example.com/page/4/index.html">
+    <meta name="description" content="2023-9-7蔚来后端Java一面技术问题设计模式 了解哪些设计模式？ 责任链模式讲解一下？适用于哪种场景？代码怎么实现？ 单例模式哪两种？哪种使用了static让外界进行访问？为什么static可以实现访问？ static具体怎么实现的？在JVM中存放于什么地方？  Redis 中间件用过哪些？（消息队列、缓存、搜索引擎） redis怎么实现空间搜索？（微信摇一摇这种） redis为什么快？">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2023-9-7蔚来后端Java一面">
+<meta property="og:url" content="https://example.com/2023/09/07/2023-9-7%E8%94%9A%E6%9D%A5%E5%90%8E%E7%AB%AFJava%E4%B8%80%E9%9D%A2/index.html">
 <meta property="og:site_name" content="Pillar&#39;s Blog ♥ zhy">
-<meta property="og:description" content="本网站为同济大学2020级软件工程本科生高逸轩的个人博客，记录个人计算机知识学习、求职面试笔试经验等。另记录和女朋友的恋爱时刻。">
+<meta property="og:description" content="2023-9-7蔚来后端Java一面技术问题设计模式 了解哪些设计模式？ 责任链模式讲解一下？适用于哪种场景？代码怎么实现？ 单例模式哪两种？哪种使用了static让外界进行访问？为什么static可以实现访问？ static具体怎么实现的？在JVM中存放于什么地方？  Redis 中间件用过哪些？（消息队列、缓存、搜索引擎） redis怎么实现空间搜索？（微信摇一摇这种） redis为什么快？">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-09-07T14:06:46.000Z">
+<meta property="article:modified_time" content="2023-09-07T14:19:46.936Z">
 <meta property="article:author" content="Pillar Gao">
-<meta property="article:tag" content="恋爱">
-<meta property="article:tag" content="同济大学">
-<meta property="article:tag" content="软件工程">
-<meta property="article:tag" content="计算机">
-<meta property="article:tag" content="学习">
-<meta property="article:tag" content="笔试">
-<meta property="article:tag" content="面试">
+<meta property="article:tag" content="面经">
+<meta property="article:tag" content="Java">
+<meta property="article:tag" content="蔚来">
 <meta name="twitter:card" content="summary_large_image">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>Pillar&#39;s Blog ♥ zhy</title>
+  <title>2023-9-7蔚来后端Java一面 - Pillar&#39;s Blog ♥ zhy</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
 
 
 
@@ -106,7 +110,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 100vh;">
+<div class="header-inner" style="height: 70vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -206,23 +210,59 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/bg/bg1.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Grow old along with me, the best is yet to be."></span>
+            <span id="subtitle" data-typed-text="2023-9-7蔚来后端Java一面"></span>
           
         </div>
 
         
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-09-07 22:06" pubdate>
+          2023年9月7日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          276 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          3 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
       </div>
 
-      
-        <div class="scroll-down-bar">
-          <i class="iconfont icon-arrowdown"></i>
-        </div>
       
     </div>
   </div>
@@ -234,189 +274,221 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div id="board"
-          style="margin-top: 0">
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">2023-9-7蔚来后端Java一面</h1>
+            
+            
+              <div class="markdown-body">
                 
+                <h1 id="2023-9-7蔚来后端Java一面"><a href="#2023-9-7蔚来后端Java一面" class="headerlink" title="2023-9-7蔚来后端Java一面"></a>2023-9-7蔚来后端Java一面</h1><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><h3 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h3><ol>
+<li>了解哪些设计模式？</li>
+<li>责任链模式讲解一下？适用于哪种场景？代码怎么实现？</li>
+<li>单例模式哪两种？哪种使用了static让外界进行访问？为什么static可以实现访问？</li>
+<li>static具体怎么实现的？在JVM中存放于什么地方？</li>
+</ol>
+<h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><ol>
+<li>中间件用过哪些？（消息队列、缓存、搜索引擎）</li>
+<li>redis怎么实现空间搜索？（微信摇一摇这种）</li>
+<li>redis为什么快？</li>
+</ol>
+<h3 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h3><ol>
+<li>Mysql回表是什么？</li>
+<li>回表怎么解决？</li>
+<li>回表返回的是一行还是一张表还是索引什么的？</li>
+<li>表的结构是什么？</li>
+<li>Mysql常见优化手段？</li>
+<li>Mysql索引什么情况适用？什么情况不适用？</li>
+</ol>
 
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2023/04/01/2023-4-1%E8%8C%B5%E7%BD%97%E7%A7%91%E6%8A%80%E9%9D%A2%E8%AF%95%EF%BC%88%E5%B7%B2OC%EF%BC%89/" target="_self">
-          2023-4-1茵罗科技面试（已OC）
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2023/04/01/2023-4-1%E8%8C%B5%E7%BD%97%E7%A7%91%E6%8A%80%E9%9D%A2%E8%AF%95%EF%BC%88%E5%B7%B2OC%EF%BC%89/" target="_self">
-        <div>
-          相关内容：Java的异常处理；sql语句、Mysql属性自增、隔离级别、B+树；守护线程；cooking与session；悲观锁与乐观锁
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2023-04-01 21:15" pubdate>
-              2023-04-01
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E9%9D%A2%E7%BB%8F/" class="category-chain-item">面经</a>
-  
-  
-    <span>></span>
-    
-  <a href="/categories/%E9%9D%A2%E7%BB%8F/%E5%90%8E%E7%AB%AF%E9%9D%A2%E7%BB%8F/" class="category-chain-item">后端面经</a>
-  
-  
-    <span>></span>
-    
-  <a href="/categories/%E9%9D%A2%E7%BB%8F/%E5%90%8E%E7%AB%AF%E9%9D%A2%E7%BB%8F/Java%E9%9D%A2%E7%BB%8F/" class="category-chain-item">Java面经</a>
-  
-  
-
-  
-
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/%E9%9D%A2%E7%BB%8F/">#面经</a>
-            
-              <a href="/tags/Java/">#Java</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2023/03/29/2023-3-29%E7%BE%8E%E5%9B%A2%E5%AE%9E%E4%B9%A0%E4%B8%80%E9%9D%A2/" target="_self">
-          2023-3-29美团后端一面（已挂）
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2023/03/29/2023-3-29%E7%BE%8E%E5%9B%A2%E5%AE%9E%E4%B9%A0%E4%B8%80%E9%9D%A2/" target="_self">
-        <div>
-          相关内容：关系型与非关系型数据库、数据库ACID、隔离等级；TCP与UDP、HTTP状态码；线程与进程、线程调度、死锁；Spring；面向对象；栈、哈希、二叉树的遍历
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2023-03-29 21:23" pubdate>
-              2023-03-29
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E9%9D%A2%E7%BB%8F/" class="category-chain-item">面经</a>
-  
-  
-    <span>></span>
-    
-  <a href="/categories/%E9%9D%A2%E7%BB%8F/%E5%90%8E%E7%AB%AF%E9%9D%A2%E7%BB%8F/" class="category-chain-item">后端面经</a>
-  
-  
-    <span>></span>
-    
-  <a href="/categories/%E9%9D%A2%E7%BB%8F/%E5%90%8E%E7%AB%AF%E9%9D%A2%E7%BB%8F/Java%E9%9D%A2%E7%BB%8F/" class="category-chain-item">Java面经</a>
-  
-  
-
-  
-
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/%E9%9D%A2%E7%BB%8F/">#面经</a>
-            
-              <a href="/tags/Java/">#Java</a>
-            
-              <a href="/tags/C/">#C++</a>
-            
-              <a href="/tags/%E7%BE%8E%E5%9B%A2/">#美团</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-
-
-  <nav aria-label="navigation">
-    <span class="pagination" id="pagination">
-      <a class="extend prev" rel="prev" href="/page/3/#board"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/#board">2</a><a class="page-number" href="/page/3/#board">3</a><span class="page-number current">4</span>
-    </span>
-  </nav>
-
-
-
+                
               </div>
-            </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E9%9D%A2%E7%BB%8F/" class="category-chain-item">面经</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E9%9D%A2%E7%BB%8F/%E5%90%8E%E7%AB%AF%E9%9D%A2%E7%BB%8F/" class="category-chain-item">后端面经</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E9%9D%A2%E7%BB%8F/%E5%90%8E%E7%AB%AF%E9%9D%A2%E7%BB%8F/Java%E9%9D%A2%E7%BB%8F/" class="category-chain-item">Java面经</a>
+  
+  
+
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E9%9D%A2%E7%BB%8F/">#面经</a>
+      
+        <a href="/tags/Java/">#Java</a>
+      
+        <a href="/tags/%E8%94%9A%E6%9D%A5/">#蔚来</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>2023-9-7蔚来后端Java一面</div>
+      <div>https://example.com/2023/09/07/2023-9-7蔚来后端Java一面/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Pillar Gao</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2023年9月7日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
           </div>
         </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2023/09/06/2023-9-6%E7%81%B5%E7%8A%80%E4%BA%92%E5%A8%B1Java%E4%B8%80%E9%9D%A2/" title="2023-9-6灵犀互娱Java一面">
+                        <span class="hidden-mobile">2023-9-6灵犀互娱Java一面</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
       </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
     
 
     
@@ -534,6 +606,99 @@
 
 
 
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
 
