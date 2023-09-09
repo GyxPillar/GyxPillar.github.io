@@ -4,6 +4,39 @@
   
   
   <entry>
+    <title>2023-9-9得物Java二面</title>
+    <link href="/2023/09/09/2023-9-9%E5%BE%97%E7%89%A9Java%E4%BA%8C%E9%9D%A2/"/>
+    <url>/2023/09/09/2023-9-9%E5%BE%97%E7%89%A9Java%E4%BA%8C%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-9-9得物Java二面"><a href="#2023-9-9得物Java二面" class="headerlink" title="2023-9-9得物Java二面"></a>2023-9-9得物Java二面</h1><h2 id="实习相关"><a href="#实习相关" class="headerlink" title="实习相关"></a>实习相关</h2><ol><li>ClamAV选型如何确定？有没有自动更新？类似的产品有没有？</li><li>性能优化为什么软删除之后还要定时删除？</li></ol><h2 id="项目相关"><a href="#项目相关" class="headerlink" title="项目相关"></a>项目相关</h2><ol><li>分布式怎么体现？</li><li>负载均衡怎么实现？一致性哈希详解？</li><li>Gossip协议为什么用？适合什么场景？</li><li>CAP知道吗？具体怎么回事？你这个项目会有CAP相关吗？（不相关，因为只读不写）</li></ol><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>Mysql调优？</li><li>sql执行计划了解吗？</li><li>Mysql的日志？</li><li>MVCC怎么实现？</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>得物</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023-9-8淘天Java三面</title>
     <link href="/2023/09/08/2023-9-8%E6%B7%98%E5%A4%A9Java%E4%B8%89%E9%9D%A2/"/>
     <url>/2023/09/08/2023-9-8%E6%B7%98%E5%A4%A9Java%E4%B8%89%E9%9D%A2/</url>
@@ -727,9 +760,9 @@
       
       <category>后端面经</category>
       
-      <category>Java面经</category>
-      
       <category>C++面经</category>
+      
+      <category>Java面经</category>
       
     </categories>
     
@@ -793,9 +826,9 @@
       
       <category>后端面经</category>
       
-      <category>Java面经</category>
-      
       <category>C++面经</category>
+      
+      <category>Java面经</category>
       
     </categories>
     
@@ -1023,9 +1056,9 @@
       
       <category>后端面经</category>
       
-      <category>Java面经</category>
-      
       <category>C++面经</category>
+      
+      <category>Java面经</category>
       
     </categories>
     
