@@ -4,6 +4,39 @@
   
   
   <entry>
+    <title>2023-9-10得物Java三面</title>
+    <link href="/2023/09/10/2023-9-10%E5%BE%97%E7%89%A9Java%E4%B8%89%E9%9D%A2/"/>
+    <url>/2023/09/10/2023-9-10%E5%BE%97%E7%89%A9Java%E4%B8%89%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-9-10得物Java三面"><a href="#2023-9-10得物Java三面" class="headerlink" title="2023-9-10得物Java三面"></a>2023-9-10得物Java三面</h1><h2 id="实习相关"><a href="#实习相关" class="headerlink" title="实习相关"></a>实习相关</h2><ol><li>CURD有复杂的吗？</li><li>ClamAV里面可以并发吗？</li></ol><h2 id="项目相关"><a href="#项目相关" class="headerlink" title="项目相关"></a>项目相关</h2><ol><li>怎么做的分布式？</li><li>怎么做的负载均衡？</li><li>票务信息系统的微服务怎么划分的？互相怎么调用？</li><li>用户信息子系统的表结构？</li></ol><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>C++与Java异同？</li><li>C++为什么比Java快？除了JVM的gc外呢？</li><li>知道哪些垃圾收集器？讲一下G1</li><li>GC Roots有哪些？</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>得物</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023-9-9得物Java二面</title>
     <link href="/2023/09/09/2023-9-9%E5%BE%97%E7%89%A9Java%E4%BA%8C%E9%9D%A2/"/>
     <url>/2023/09/09/2023-9-9%E5%BE%97%E7%89%A9Java%E4%BA%8C%E9%9D%A2/</url>
@@ -760,9 +793,9 @@
       
       <category>后端面经</category>
       
-      <category>C++面经</category>
-      
       <category>Java面经</category>
+      
+      <category>C++面经</category>
       
     </categories>
     
@@ -826,9 +859,9 @@
       
       <category>后端面经</category>
       
-      <category>C++面经</category>
-      
       <category>Java面经</category>
+      
+      <category>C++面经</category>
       
     </categories>
     
@@ -1056,9 +1089,9 @@
       
       <category>后端面经</category>
       
-      <category>C++面经</category>
-      
       <category>Java面经</category>
+      
+      <category>C++面经</category>
       
     </categories>
     

@@ -16,15 +16,15 @@
   <meta name="author" content="Pillar Gao">
   <meta name="keywords" content="恋爱,同济大学,软件工程,计算机,学习,笔试,面试">
   
-    <meta name="description" content="2023-9-9得物Java二面实习相关 ClamAV选型如何确定？有没有自动更新？类似的产品有没有？ 性能优化为什么软删除之后还要定时删除？  项目相关 分布式怎么体现？ 负载均衡怎么实现？一致性哈希详解？ Gossip协议为什么用？适合什么场景？ CAP知道吗？具体怎么回事？你这个项目会有CAP相关吗？（不相关，因为只读不写）  技术问题 Mysql调优？ sql执行计划了解吗？ Mysql的">
+    <meta name="description" content="2023-9-10得物Java三面实习相关 CURD有复杂的吗？ ClamAV里面可以并发吗？  项目相关 怎么做的分布式？ 怎么做的负载均衡？ 票务信息系统的微服务怎么划分的？互相怎么调用？ 用户信息子系统的表结构？  技术问题 C++与Java异同？ C++为什么比Java快？除了JVM的gc外呢？ 知道哪些垃圾收集器？讲一下G1 GC Roots有哪些？">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2023-9-9得物Java二面">
-<meta property="og:url" content="https://example.com/2023/09/09/2023-9-9%E5%BE%97%E7%89%A9Java%E4%BA%8C%E9%9D%A2/index.html">
+<meta property="og:title" content="2023-9-10得物Java三面">
+<meta property="og:url" content="https://example.com/2023/09/10/2023-9-10%E5%BE%97%E7%89%A9Java%E4%B8%89%E9%9D%A2/index.html">
 <meta property="og:site_name" content="Pillar&#39;s Blog ♥ zhy">
-<meta property="og:description" content="2023-9-9得物Java二面实习相关 ClamAV选型如何确定？有没有自动更新？类似的产品有没有？ 性能优化为什么软删除之后还要定时删除？  项目相关 分布式怎么体现？ 负载均衡怎么实现？一致性哈希详解？ Gossip协议为什么用？适合什么场景？ CAP知道吗？具体怎么回事？你这个项目会有CAP相关吗？（不相关，因为只读不写）  技术问题 Mysql调优？ sql执行计划了解吗？ Mysql的">
+<meta property="og:description" content="2023-9-10得物Java三面实习相关 CURD有复杂的吗？ ClamAV里面可以并发吗？  项目相关 怎么做的分布式？ 怎么做的负载均衡？ 票务信息系统的微服务怎么划分的？互相怎么调用？ 用户信息子系统的表结构？  技术问题 C++与Java异同？ C++为什么比Java快？除了JVM的gc外呢？ 知道哪些垃圾收集器？讲一下G1 GC Roots有哪些？">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-09-09T13:49:03.000Z">
-<meta property="article:modified_time" content="2023-09-09T14:00:12.737Z">
+<meta property="article:published_time" content="2023-09-10T04:19:34.000Z">
+<meta property="article:modified_time" content="2023-09-10T04:24:24.816Z">
 <meta property="article:author" content="Pillar Gao">
 <meta property="article:tag" content="面经">
 <meta property="article:tag" content="Java">
@@ -35,7 +35,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>2023-9-9得物Java二面 - Pillar&#39;s Blog ♥ zhy</title>
+  <title>2023-9-10得物Java三面 - Pillar&#39;s Blog ♥ zhy</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -216,7 +216,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="2023-9-9得物Java二面"></span>
+            <span id="subtitle" data-typed-text="2023-9-10得物Java三面"></span>
           
         </div>
 
@@ -227,8 +227,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-09-09 21:49" pubdate>
-          2023年9月9日 晚上
+        <time datetime="2023-09-10 12:19" pubdate>
+          2023年9月10日 中午
         </time>
       </span>
     
@@ -239,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          199 字
+          166 字
         
       </span>
     
@@ -288,26 +288,26 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">2023-9-9得物Java二面</h1>
+            <h1 style="display: none">2023-9-10得物Java三面</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="2023-9-9得物Java二面"><a href="#2023-9-9得物Java二面" class="headerlink" title="2023-9-9得物Java二面"></a>2023-9-9得物Java二面</h1><h2 id="实习相关"><a href="#实习相关" class="headerlink" title="实习相关"></a>实习相关</h2><ol>
-<li>ClamAV选型如何确定？有没有自动更新？类似的产品有没有？</li>
-<li>性能优化为什么软删除之后还要定时删除？</li>
+                <h1 id="2023-9-10得物Java三面"><a href="#2023-9-10得物Java三面" class="headerlink" title="2023-9-10得物Java三面"></a>2023-9-10得物Java三面</h1><h2 id="实习相关"><a href="#实习相关" class="headerlink" title="实习相关"></a>实习相关</h2><ol>
+<li>CURD有复杂的吗？</li>
+<li>ClamAV里面可以并发吗？</li>
 </ol>
 <h2 id="项目相关"><a href="#项目相关" class="headerlink" title="项目相关"></a>项目相关</h2><ol>
-<li>分布式怎么体现？</li>
-<li>负载均衡怎么实现？一致性哈希详解？</li>
-<li>Gossip协议为什么用？适合什么场景？</li>
-<li>CAP知道吗？具体怎么回事？你这个项目会有CAP相关吗？（不相关，因为只读不写）</li>
+<li>怎么做的分布式？</li>
+<li>怎么做的负载均衡？</li>
+<li>票务信息系统的微服务怎么划分的？互相怎么调用？</li>
+<li>用户信息子系统的表结构？</li>
 </ol>
 <h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol>
-<li>Mysql调优？</li>
-<li>sql执行计划了解吗？</li>
-<li>Mysql的日志？</li>
-<li>MVCC怎么实现？</li>
+<li>C++与Java异同？</li>
+<li>C++为什么比Java快？除了JVM的gc外呢？</li>
+<li>知道哪些垃圾收集器？讲一下G1</li>
+<li>GC Roots有哪些？</li>
 </ol>
 
                 
@@ -372,8 +372,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>2023-9-9得物Java二面</div>
-      <div>https://example.com/2023/09/09/2023-9-9得物Java二面/</div>
+      <div>2023-9-10得物Java三面</div>
+      <div>https://example.com/2023/09/10/2023-9-10得物Java三面/</div>
     </div>
     <div class="license-meta">
       
@@ -385,7 +385,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年9月9日</div>
+          <div>2023年9月10日</div>
         </div>
       
       
@@ -417,18 +417,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/09/10/2023-9-10%E5%BE%97%E7%89%A9Java%E4%B8%89%E9%9D%A2/" title="2023-9-10得物Java三面">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">2023-9-10得物Java三面</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/09/08/2023-9-8%E6%B7%98%E5%A4%A9Java%E4%B8%89%E9%9D%A2/" title="2023-9-8淘天Java三面">
-                        <span class="hidden-mobile">2023-9-8淘天Java三面</span>
+                      <a href="/2023/09/09/2023-9-9%E5%BE%97%E7%89%A9Java%E4%BA%8C%E9%9D%A2/" title="2023-9-9得物Java二面">
+                        <span class="hidden-mobile">2023-9-9得物Java二面</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
