@@ -4,6 +4,72 @@
   
   
   <entry>
+    <title>2023-9-11阿里控股Java一面</title>
+    <link href="/2023/09/11/2023-9-11%E9%98%BF%E9%87%8C%E6%8E%A7%E8%82%A1Java%E4%B8%80%E9%9D%A2/"/>
+    <url>/2023/09/11/2023-9-11%E9%98%BF%E9%87%8C%E6%8E%A7%E8%82%A1Java%E4%B8%80%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-9-11阿里控股Java一面"><a href="#2023-9-11阿里控股Java一面" class="headerlink" title="2023-9-11阿里控股Java一面"></a>2023-9-11阿里控股Java一面</h1><h2 id="实习相关"><a href="#实习相关" class="headerlink" title="实习相关"></a>实习相关</h2><ol><li>HANA数据库了解吗？速度怎么样？硬件指标啥的呢？</li></ol><h2 id="项目相关"><a href="#项目相关" class="headerlink" title="项目相关"></a>项目相关</h2><ol><li>怎么感知server down掉？</li><li>初始怎么知道构建多少个节点？</li><li>Gossip协议具体实现调包还是自己实现？具体怎么实现的？</li><li>Gossip的特点，优缺点？</li></ol><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>ConcurrentHashMap与HashMap结构？</li><li>HashMap初始化构造函数？rehash的具体过程？</li><li>ConcurrentHashMap的segment怎么保证安全？segment数量是多少？</li><li>线程的可见性是什么意思？为什么需要线程的可见性？除了volatile怎么实现？</li><li>线程的生命周期状态？死锁的时候会处于哪些状态呢？</li><li>CAS优点缺点？</li><li>自旋锁是什么？有什么问题？除了导致阻塞呢？</li><li>死锁怎么判断和定位？（jstack）</li><li>jstack有什么用处？</li><li>Mysql自己的乐观锁和悲观锁分别是什么？怎么实现？</li><li>SQL语句怎么写会有悲观锁？修改的可以，SELECT的应该怎么写可以加悲观锁？</li><li>用Redis做过什么？</li><li>Redis先写缓存再写数据库&#x2F;先写数据库再写缓存分别会有什么问题？</li><li>查询时缓存中没有，先从数据库查，然后返回到缓存，会有什么问题？（缓存击穿）怎么解决？</li><li>美团技术平台动态设置线程池参数具体怎么回事？真的动态改变还是new新的？</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>阿里</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2023-9-11阿里健康Java一面</title>
+    <link href="/2023/09/11/2023-9-11%E9%98%BF%E9%87%8C%E5%81%A5%E5%BA%B7Java%E4%B8%80%E9%9D%A2/"/>
+    <url>/2023/09/11/2023-9-11%E9%98%BF%E9%87%8C%E5%81%A5%E5%BA%B7Java%E4%B8%80%E9%9D%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2023-9-11阿里健康Java一面"><a href="#2023-9-11阿里健康Java一面" class="headerlink" title="2023-9-11阿里健康Java一面"></a>2023-9-11阿里健康Java一面</h1><h2 id="项目相关"><a href="#项目相关" class="headerlink" title="项目相关"></a>项目相关</h2><ol><li>一致性哈希详解？如何实现负载均衡？</li><li>你对分布式的认识和了解？</li></ol><h2 id="技术问题"><a href="#技术问题" class="headerlink" title="技术问题"></a>技术问题</h2><ol><li>MySQL vs MongoDB，各自的适用场景？</li><li>MongoDB为什么适用于SNS？</li><li>讲讲MySQL索引？</li><li>一级索引和二级索引是什么？互相的关系？和回表的相关联之处？</li><li>MongoDB的特点？</li><li>MongoDB的高可用？</li><li>HashMap和ConcurrentHashMap的结构？分别适用于什么场景？</li><li>ConcurrentHashMap实现加锁的原理？</li><li>乐观锁 vs 悲观锁</li><li>CAS原理？缺点优点有什么？</li><li>ABA问题是什么？怎么解决？</li><li>Spring AOP原理？</li><li>动态代理是什么？有哪些应用？</li><li>静态代理的应用场景？</li><li>nginx正向代理和反向代理是什么？分别的应用场景？</li></ol><h2 id="手撕"><a href="#手撕" class="headerlink" title="手撕"></a>手撕</h2><ol><li>开一个线程池，5个核心线程，10个任务，保证10个任务执行完，再执行主线程的一些任务</li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面经</category>
+      
+      <category>后端面经</category>
+      
+      <category>Java面经</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面经</tag>
+      
+      <tag>Java</tag>
+      
+      <tag>阿里</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023-9-10得物Java三面</title>
     <link href="/2023/09/10/2023-9-10%E5%BE%97%E7%89%A9Java%E4%B8%89%E9%9D%A2/"/>
     <url>/2023/09/10/2023-9-10%E5%BE%97%E7%89%A9Java%E4%B8%89%E9%9D%A2/</url>
